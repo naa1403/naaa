@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="styles.css">
+
+        <!-- =====BOX ICONS===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+        <title>Portfolio website complete</title>
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">Helnendis Inna</a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">This is me</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                        <li class="nav__item"><a href="#work" class="nav__link">My Foto</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home bd-grid" id="home">
+                <div class="home__data">
+                    <h1 class="home__title">Hi, I'am <span class="home__title-color">Inna</span><br>Photography & Videography</h1>
+
+                    <a href="#about" class="button">This is me</a>
+                </div>
+              
+                <div class="home-img">
+                  <img src="motor5.jpg" alt="Inna">
+                </div>
+              </section>
+
+            <!--===== ABOUT =====-->
+            <section class="about section " id="about">
+                <h2 class="section-title">This is me</h2>
+
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="motor10.jpg" alt="">
+                    </div>
+                    
+                    <div>
+                        <h2 class="about__subtitle">Helnendis Inna</h2>
+                        <p class="about__text">Halo, saya Innaa! Seorang fotografer dan videografer yang berfokus pada penangkapan momen autentik dan penceritaan visual yang mendalam. 
+                            Bagi saya, kamera bukan sekadar alat, melainkan jendela untuk mengabadikan emosi dan cerita yang tidak bisa diungkapkan dengan kata-kata.</p>           
+                    </div>                                   
+                </div>
+            </section>
+
+            <!--===== SKILLS =====-->
+            <section class="skills section" id="skills">
+                <h2 class="section-title">Skills</h2>
+
+                <div class="skills__container bd-grid">          
+                    <div>
+                        <h2 class="skills__subtitle">Profesional Skills</h2>
+                        <p class="skills__text">"Satu foto bercerita tentang ribuan kata,<br> 
+                                                namun satu video menghidupkan ribuan rasa."</p>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bx-camera skills__icon'></i>
+                                <span class="skills__name">Camera Sony Alpha 7 IV (A7 IV)</span>
+                            </div>
+                            <div class="skills__bar skills__html">
+
+                            </div>
+                            <div>
+                                <span class="skills__percentage">87%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bx-mobile-alt skills__icon'></i>
+                                <span class="skills__name">Camera iPhone 13</span>
+                            </div>
+                            <div class="skills__bar skills__css">
+                            </div>
+                            <div>
+                                <span class="skills__percentage">95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div>              
+                        <img src="fotokamerahp.png" alt="" class="skills__img">
+                    </div>
+                </div>
+            </section>
+
+            <!--===== WORK =====-->
+            <section class="work section" id="work">
+                <h2 class="section-title">Foto</h2>
+
+                <div class="work__container bd-grid">
+                    <a href="" class="work__img">
+                        <img src="foto1.jpg" alt="">
+                    </a>
+                    <a href="" class="work__img">
+                        <img src="foto2.jpg" alt="">
+                    </a>
+                    <a href="" class="work__img">
+                        <img src="foto3.jpg" alt="">
+                    </a>
+                    <a href="" class="work__img">
+                        <img src="foto4.jpg" alt="">
+                    </a>
+                    <a href="" class="work__img">
+                        <img src="foto5.jpg" alt="">
+                    </a>
+                    <a href="" class="work__img">
+                        <img src="foto6.jpg" alt="">
+                    </a>
+                </div>
+            </section>
+
+            <!--===== CONTACT =====-->
+            <section class="contact section" id="contact">
+                <h2 class="section-title">Contact</h2>
+                <form 
+                id="contactForm"
+                action="mailto:emailkamu@gmail.com"
+                method="post"
+                enctype="text/plain"
+                class="contact-form"
+                >
+  <div class="form-row">
+    <input type="text" name="Name" placeholder="Name" required>
+    <input type="email" name="Email" placeholder="Email" required>
+  </div>
+
+  <textarea name="Message" placeholder="Message" required></textarea>
+
+  <button type="submit">Send</button>
+</form>
+
+            </section>
+        </main>
+
+        <!--===== FOOTER =====-->
+        <footer class="footer">
+            <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+            <p class="footer__title">Naaa.</p>
+            <div class="footer__social">
+                <a href="https://www.tiktok.com/@hlnndsinna" class="footer__icon" target="_blank">
+                    <i class='bx bxl-tiktok'></i>
+                  </a>
+                  
+                  <a href="https://www.instagram.com/hlnndsinna" class="footer__icon" target="_blank">
+                    <i class='bx bxl-instagram'></i>
+                  </a>
+            </div>
+            <p class="footer__copy">&#169; NaaMYcode. All rigths reserved</p>
+        </footer>
+
+
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="main.js"></script>
+        <script>
+            const form = document.getElementById("contactForm");
+          
+            form.addEventListener("submit", function () {
+              setTimeout(() => {
+                form.reset();
+              }, 500);
+            });
+          </script>
+    </body>
+</html>
